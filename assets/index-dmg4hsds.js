@@ -773,7 +773,6 @@ function f(t){t.innerHTML=`
 
     
     <div class="text-center mt-12">
-        <a href="#tech" class="btn btn-secondary">${window.t('cta_references')}</a>
     </div>
   `,t.querySelectorAll(".card").forEach(i=>{i.addEventListener("click",()=>{i.classList.toggle("expanded")})});const a=document.createElement("style");a.textContent=`
     .mb-12 { margin-bottom: var(--space-12); }
